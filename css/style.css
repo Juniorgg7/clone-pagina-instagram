@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #FAFAFA;
+}
+
+.containner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.img-phone img {
+    width: 290px;
+    margin-right: 25px;
+}
+
+.containner .imgs-lojas img {
+    width: 140px;
+}
+
+.containner .box-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.containner .formulario {
+    border: 0.5px solid #dbdbdb;
+    padding: 0 35px;
+    background-color: white;
+}
+
+.formulario .box img {
+    text-align: center;
+    padding: 35px 0;
+    width: 175px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+form input {
+    height: 35px;
+    width: 260px;
+    margin: 5px 0;
+    border: 0.5px solid #dbdbdb;
+    padding-left: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+
+}
+
+form input[type="button"] {
+    background-color: #0095F6;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.box span {
+    color: #8e8e8e;
+    font-size: 13px;
+    display: inline-block;
+    margin: 20px 0 30px 0;
+    font-weight: 600;
+}
+
+.box span::before {
+    content: "---------------------------";
+}
+
+.box span::after {
+    content: "---------------------------";
+}
+
+.box p {
+    text-align: center;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.box p a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #385185;
+}
+
+.box p:nth-of-type(2) {
+    font-size: 12px;
+}
+
+.criar-conta {
+    border: 0.5px solid #c2c2c2;
+    padding: 0 35px;
+    background-color: white;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    padding: 25px 35px;
+    width: 100%;
+}
+
+.criar-conta a {
+    color: #0095f6;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.box-form>p {
+    text-align: center;
+    color: #262626;
+    font-size: 14px;
+    margin: 15px 0 20px 0;
+}
+
+.rodape {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rodape ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rodape ul li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 5px;
+}
+
+.rodape ul li a {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+.rodape span {
+    display: inline-block;
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 20px 10px;
+}
